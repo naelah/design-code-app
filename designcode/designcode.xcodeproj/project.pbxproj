@@ -16,7 +16,7 @@
 		98E7EA5F215FA9800059DBD1 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E7EA5E215FA9800059DBD1 /* Data.swift */; };
 		98E7EA61215FA9F30059DBD1 /* SectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E7EA60215FA9F30059DBD1 /* SectionCollectionViewCell.swift */; };
 		98E7EA63215FBC1C0059DBD1 /* testimonialCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E7EA62215FBC1C0059DBD1 /* testimonialCollectionViewCell.swift */; };
-		98E7EA65215FBCBF0059DBD1 /* TestimonialCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E7EA64215FBCBF0059DBD1 /* TestimonialCollectionViewController.swift */; };
+		98E7EA65215FBCBF0059DBD1 /* TestimonialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E7EA64215FBCBF0059DBD1 /* TestimonialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		98E7EA5E215FA9800059DBD1 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		98E7EA60215FA9F30059DBD1 /* SectionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionCollectionViewCell.swift; sourceTree = "<group>"; };
 		98E7EA62215FBC1C0059DBD1 /* testimonialCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testimonialCollectionViewCell.swift; sourceTree = "<group>"; };
-		98E7EA64215FBCBF0059DBD1 /* TestimonialCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestimonialCollectionViewController.swift; sourceTree = "<group>"; };
+		98E7EA64215FBCBF0059DBD1 /* TestimonialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestimonialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 				98A18B002141042A008071BD /* AppDelegate.swift */,
 				98E7EA5E215FA9800059DBD1 /* Data.swift */,
 				98A18B022141042A008071BD /* ViewController.swift */,
-				98E7EA64215FBCBF0059DBD1 /* TestimonialCollectionViewController.swift */,
+				98E7EA64215FBCBF0059DBD1 /* TestimonialViewController.swift */,
 				98E7EA62215FBC1C0059DBD1 /* testimonialCollectionViewCell.swift */,
 				98E7EA5C215F7C3C0059DBD1 /* SectionViewController.swift */,
 				98E7EA60215FA9F30059DBD1 /* SectionCollectionViewCell.swift */,
@@ -154,7 +154,7 @@
 				98E7EA5D215F7C3C0059DBD1 /* SectionViewController.swift in Sources */,
 				98E7EA61215FA9F30059DBD1 /* SectionCollectionViewCell.swift in Sources */,
 				98A18B032141042A008071BD /* ViewController.swift in Sources */,
-				98E7EA65215FBCBF0059DBD1 /* TestimonialCollectionViewController.swift in Sources */,
+				98E7EA65215FBCBF0059DBD1 /* TestimonialViewController.swift in Sources */,
 				98A18B012141042A008071BD /* AppDelegate.swift in Sources */,
 				98E7EA5F215FA9800059DBD1 /* Data.swift in Sources */,
 			);

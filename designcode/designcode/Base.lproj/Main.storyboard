@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" contentInsetAdjustmentBehavior="never" translatesAutoresizingMaskIntoConstraints="NO" id="DZL-jk-hWm">
-                                <rect key="frame" x="0.0" y="44" width="375" height="2500"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="3000"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Tm-MV-Po7">
                                         <rect key="frame" x="0.0" y="-22" width="375" height="546"/>
@@ -420,7 +420,7 @@
                                     <constraint firstItem="LX3-9K-LsD" firstAttribute="top" secondItem="qyj-A3-YCx" secondAttribute="bottom" id="Jdx-xb-4I3"/>
                                     <constraint firstAttribute="trailing" secondItem="O1X-9E-gr7" secondAttribute="trailing" id="KCv-QH-7KV"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1500" id="Ong-rt-TY6"/>
-                                    <constraint firstAttribute="bottom" secondItem="5Tm-MV-Po7" secondAttribute="bottom" constant="1476" id="Yt6-eH-zlR"/>
+                                    <constraint firstAttribute="bottom" secondItem="5Tm-MV-Po7" secondAttribute="bottom" constant="2476" id="Yt6-eH-zlR"/>
                                     <constraint firstItem="qyj-A3-YCx" firstAttribute="top" secondItem="O1X-9E-gr7" secondAttribute="bottom" id="Yza-Kp-xpZ"/>
                                     <constraint firstItem="O1X-9E-gr7" firstAttribute="leading" secondItem="DZL-jk-hWm" secondAttribute="leading" id="Zf0-9u-Zch"/>
                                     <constraint firstItem="LX3-9K-LsD" firstAttribute="leading" secondItem="DZL-jk-hWm" secondAttribute="leading" id="bVs-gR-Kbw"/>
@@ -435,7 +435,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="DZL-jk-hWm" secondAttribute="bottom" constant="-544" id="6TO-JT-T9s"/>
+                            <constraint firstAttribute="bottom" secondItem="DZL-jk-hWm" secondAttribute="bottom" constant="-1044" id="6TO-JT-T9s"/>
                             <constraint firstItem="DZL-jk-hWm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6lz-b0-BAg"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DZL-jk-hWm" secondAttribute="trailing" id="9oI-Ve-2Kk"/>
                             <constraint firstItem="DZL-jk-hWm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="pgs-9n-Ldz"/>
@@ -458,10 +458,10 @@
             </objects>
             <point key="canvasLocation" x="116" y="116.74876847290641"/>
         </scene>
-        <!--Testimonial Collection View Controller-->
+        <!--Testimonial View Controller-->
         <scene sceneID="3hJ-7N-dMr">
             <objects>
-                <viewController id="jgi-jh-0E2" customClass="TestimonialCollectionViewController" customModule="designcode" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="jgi-jh-0E2" customClass="TestimonialViewController" customModule="designcode" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="He5-PM-YiA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="524"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

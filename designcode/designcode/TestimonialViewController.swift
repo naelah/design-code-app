@@ -8,9 +8,8 @@
 
 import UIKit
 
-private let reuseIdentifier = "Cell"
 
-class TestimonialCollectionViewController: UICollectionViewController {
+class TestimonialViewController: UIViewController {
     @IBOutlet weak var testimonialCollectionView: UICollectionView!
     
     override func viewDidLoad() {
@@ -21,13 +20,16 @@ class TestimonialCollectionViewController: UICollectionViewController {
 //    self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
 
     }
+    
+}
 
-    override func numberOfSections(in collectionView: UICollectionView) -> Int {
+extension TestimonialViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return testimonials.count
     }
+    
 
-
-    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+  func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "testimonialCell", for: indexPath) as! testimonialCollectionViewCell
     
         let testimonial = testimonials[indexPath.row]
@@ -39,6 +41,5 @@ class TestimonialCollectionViewController: UICollectionViewController {
     
         return cell
     }
-
 
 }
